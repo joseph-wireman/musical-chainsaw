@@ -9,7 +9,6 @@ to install Django first install python and run this
 
 ```
 python -m pip install Django
-
 ```
 
 
@@ -17,5 +16,4 @@ then to start the webserver run
 
 ```
 python start.py runserver
-
 ```
