@@ -22,4 +22,5 @@ urlpatterns = [
     path('mentors/', views.mentors, name='mentors'),
     path('admin/', admin.site.urls),
     path('flyer/', views.flyer, name='flyer'),
+    path('topics/', views.topics, name='topics')
 ]

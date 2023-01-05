@@ -8,3 +8,6 @@ def mentors(request):
 
 def flyer(request):
     return render(request, 'flyer.html')
+
+def topics(request):
+    return render(request, 'topics.html')
