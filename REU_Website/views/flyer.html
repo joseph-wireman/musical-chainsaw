@@ -416,7 +416,8 @@
 
     <body>
         <div class = "container">
-            <embed src="https://drive.google.com/file/d/1skLjz4vzkdCXMqcw7Su9d7Oyu9CwyUOw/preview" type="application/pdf" width="80%" height="800" style="margin: auto; display: block;">
+            {% load static %}
+            <embed src="{% static 'pdf/Flyer.pdf' %}" type="application/pdf" width="80%" height="800" style="margin: auto; display: block;">
         </div>
     </body>
 </html>
