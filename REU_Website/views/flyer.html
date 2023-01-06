@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+{% load static %}  
 
 <link rel='dns-prefetch' href='//ajax.googleapis.com' />
 <link rel='stylesheet' id='wp-block-library-css'
@@ -492,7 +493,7 @@
             <div id="wordmark">
               <a class="ecu-event-tracking" data-ga-category="Section:NavBar" data-ga-action="Wordmark"
                 href="http://www.ecu.edu" title="East Carolina University">
-                <img src="https://cet.ecu.edu/csci/wp-content/themes/gangplank/images/ECU_lockup_primary_White.svg"
+                <img src="{% static 'svg/ECU_lockup_primary_White.svg' %}"
                   alt="East Carolina University Homepage">
               </a>
             </div>
@@ -663,7 +664,6 @@
 
     <body>
         <div class = "container">
-            {% load static %}
             <embed src="{% static 'pdf/Flyer.pdf' %}" type="application/pdf" width="80%" height="800" style="margin: auto; display: block;">
         </div>
     </body>
