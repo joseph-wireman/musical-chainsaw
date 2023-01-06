@@ -11,3 +11,6 @@ def flyer(request):
 
 def topics(request):
     return render(request, 'topics.html')
+
+def excursions(request):
+    return render(request, 'excursions.html')
