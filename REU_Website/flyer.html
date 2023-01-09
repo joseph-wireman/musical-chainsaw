@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-{% load static %}
 
 <head>
   <link rel='dns-prefetch' href='//ajax.googleapis.com' />
@@ -18,7 +17,7 @@
     href='https://fonts.googleapis.com/css?family=Oswald%3Awght%40300%3B400%3B500%3B600%3B700%7CQuattrocento%3Awght%40400%3B700%7CRoboto+Slab%3Awght%40300%3B700&#038;ver=6.0.2'
     type='text/css' media='all' />
   <link rel='stylesheet' id='theme-styles-css'
-    href='{% static 'css/theme.css' %}' type='text/css'
+    href='css/theme.css' type='text/css'
     media='all' />
   <link rel="https://api.w.org/" href="https://cet.ecu.edu/csci/wp-json/" />
   <link rel="alternate" type="application/json" href="https://cet.ecu.edu/csci/wp-json/wp/v2/pages/22" />
@@ -26,12 +25,12 @@
   <link rel="canonical" href="https://cet.ecu.edu/csci/" />
 
 
-  <link rel="preload" as="font" href="{% static 'fonts/modules.ttf' %}" as="font/ttf"> 
-  <link rel="preload" as="font" href="{% static 'fonts/slick.woff' %}" as="font/ttf">
-  <link rel="preload" as="font" href="{% static 'fonts/slick.ttf' %}" as="font/ttf">
-  <link rel="preload" as="font" href="{% static 'fonts/fontawesome-webfont.woff' %}" as="font/ttf">
-  <link rel="preload" as="font" href="{% static 'fonts/fontawesome-webfont.woff2' %}" as="font/ttf">
-  <link rel="preload" as="font" href="{% static 'fonts/fontawesome-webfont.ttf' %}" as="font/ttf">
+  <link rel="preload" as="font" href='fonts/modules.ttf' as="font/ttf"> 
+  <link rel="preload" as="font" href="fonts/slick.woff" as="font/ttf">
+  <link rel="preload" as="font" href="fonts/slick.ttf" as="font/ttf">
+  <link rel="preload" as="font" href='fonts/fontawesome-webfont.woff' as="font/ttf">
+  <link rel="preload" as="font" href="fonts/fontawesome-webfont.woff2" as="font/ttf">
+  <link rel="preload" as="font" href='fonts/fontawesome-webfont.ttf' as="font/ttf">
   
 
 
@@ -456,9 +455,9 @@
 
 
 
+
+
 <body class="home page-template-default page page-id-22 et_monarch">
-
-
 
 
   <div id="ecu-skip-links" role="navigation" aria-label="Skip to Main Content">
@@ -481,7 +480,7 @@
             <div id="wordmark">
               <a class="ecu-event-tracking" data-ga-category="Section:NavBar" data-ga-action="Wordmark"
                 href="http://www.ecu.edu" title="East Carolina University">
-                <img src="{% static 'svg/ECU_lockup_primary_White.svg' %}"
+                <img src='svg/ECU_lockup_primary_White.svg'
                   alt="East Carolina University Homepage">
               </a>
             </div>
@@ -631,23 +630,23 @@
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-191 nav-item dropdown">
               <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-520"
                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-520 nav-item"><a
-                  title="Mentors" target="_self" href="/mentors" class="nav-link">Mentors</a>
+                  title="Mentors" target="_self" href="./mentors.html" class="nav-link">Mentors</a>
               </li>
               <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-200"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-200 nav-item dropdown">
               <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-520"
                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-520 nav-item"><a
-                  title="Research Topics" target="_self" href="/topics"
+                  title="Research Topics" target="_self" href="./topics.html"
                   class="nav-link">Research Topics</a>
               </li>
               <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-520"
                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-520 nav-item"><a
-                  title="Flyer" target="_self" href="/flyer"
+                  title="Flyer" target="_self" href="./flyer.html"
                   class="nav-link">Flyer</a>
               </li>
               <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-520"
                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-520 nav-item"><a
-                  title="Flyer" target="_self" href="/excursions"
+                  title="Flyer" target="_self" href="./excursions.html"
                   class="nav-link">Excursions</a>
               </li>
               </li>
@@ -661,157 +660,23 @@
       </nav>
     </div>
 
+
+
+
     <div id="main-content" role="main">
-
-        
-
       <div class="container">
+
         <main id="main">
-          <h1 class="sr-only">Department of Computer Science</h1>
-
-          <h3>Research Projects</h3>
-          <p>The research focus is in Software and Data Analytics. The sample research projects cover open research
-            topics in software and data analytics including, Code Recommendation for Programming Language Learners;
-            Intelligent Program Update Detection and Automation; Human-Computer Collaborative Dialogue Systems; Using
-            Machine Learning to Estimate Software Development Effort; Understanding Implicit Extension APIs; Machine
-            Learning Algorithms for Biometric Data Analysis; Performance Evaluation of Machine Learning Algorithms.
-            Students participating in these projects will learn about topics including code recommendation systems,
-            static program analysis, program transformation, classical techniques for classification in machine learning
-            (e.g., k-nearest neighbors), deep learning, information retrieval, software testing, software maintenance,
-            software repository mining, software quality metrics, crypto-currencies, and both theoretical and empirical
-            measurements of algorithm performance.  A few topics from each mentor are listed below.</p> <hr>
-
-
-
-          <div class="row">
-            <div class="col-md-3">
-            <h1>Venkat Gudivada</h1>
-            <img src="https://cet.ecu.edu/csci/wp-content/pv-uploads/sites/264/2019/02/gudivada_200.jpg" alt="" width="214" height="300" class="alignnone wp-image-1352 size-medium" srcset="https://cet.ecu.edu/csci/wp-content/pv-uploads/sites/264/2019/02/gudivada_200.jpg 214w, https://cet.ecu.edu/csci/wp-content/pv-uploads/sites/264/2019/02/gudivada_200.jpg 250w" sizes="(max-width: 214px) 100vw, 214px"></div>
-            <div class="col-md-9"><br><br><br><br>
-            <strong>Projects/Research Interests</strong><br>
-            <ul>
-                <li>
-                    Imputation of Missing Values
-                </li>
-                <li>
-                    Natural Language to SQL Queries
-                </li>
-                <li>
-                    SQL to Natural Language
-                </li>
-                <li>
-                    Automating Exploratory Data Analysis <i>(Automatically selecting a data visualisation based on data characteristics)</i>
-                </li>
-                <li>
-                    Data Quality Assessment and Enhancement using dbX
-                </li>
-            </ul>
-            <br>
-            </div>
-        </div>
-            <hr>
-
-            <div class="row">
-                <div class="col-md-3">
-                <h1>Nic Herndon</h1>
-                <img src="https://cet.ecu.edu/csci/wp-content/pv-uploads/sites/264/2019/11/Herndon-214x300.jpg" alt="" width="214" height="300" class="alignnone wp-image-1352 size-medium" srcset="https://cet.ecu.edu/csci/wp-content/pv-uploads/sites/264/2019/11/Herndon-214x300.jpg 214w, https://cet.ecu.edu/csci/wp-content/pv-uploads/sites/264/2019/11/Herndon.jpg 250w" sizes="(max-width: 214px) 100vw, 214px"></div>
-                <div class="col-md-9"><br><br>
-                <strong>Projects/Research Interests</strong><br>
-                <ul>
-                    <li>
-                        Digital Pathologist
-                    </li>
-                    <li>
-                        Dental Furcation Identifier
-                    </li>
-                    <li>
-                        3D Denture Models from Facial Scans
-                    </li>
-                    <li>
-                        <a href="https://treegenesdb.org/ct">CartograPlant</a> 
-                    </li>
-                </ul>
-                <br>
-                </div>
-            </div>
-                <hr>
-
-                <div class="row">
-                    <div class="col-md-3">
-                    <h1>Nasseh Tabrizi</h1>
-                    <img src="https://cet.ecu.edu/csci/wp-content/pv-uploads/sites/264/2019/02/Nasseh-Tabriz_200.jpg" alt="" width="214" height="300" class="alignnone wp-image-1352 size-medium" srcset="https://cet.ecu.edu/csci/wp-content/pv-uploads/sites/264/2019/02/Nasseh-Tabriz_200.jpg 214w, https://cet.ecu.edu/csci/wp-content/pv-uploads/sites/264/2019/02/Nasseh-Tabriz_200.jpg 250w" sizes="(max-width: 214px) 100vw, 214px"></div>
-                    <div class="col-md-9"><br><br>
-                    <strong>Projects/Research Interests</strong><br>
-                    <ul>
-                        <li>
-                            Social Media Data Analytics
-                        </li>
-                        <li>
-                            Bibliographic Reference Classification in Historiographic Documents 
-                        </li>
-                        <li>
-                            Predictive and Preventative Maintenance
-                        </li>
-                        <li>
-                            Salient Object Interactions to Generate Textual Descriptions for Natural Images
-                        <li>
-                            Machine Learning Based Medical Information Retrival Systems
-                        </li>
-                        <li>
-                            Personality Assessment from Social Media Data using Machine Learning
-                        </li>
-                        <li>
-                            Archival Big Data Extraction, Assessment, and Preservation
-                        </li>
-                    </ul>
-                    <br>
-                    </div>
-                </div>
-                    <hr>
-
-                    <div class="row">
-                        <div class="col-md-3">
-                        <h1>Rui Wu</h1>
-                        <img src="https://cet.ecu.edu/csci/wp-content/pv-uploads/sites/264/2019/02/Wu_Rui-1410_200.jpg" alt="" width="214" height="300" class="alignnone wp-image-1352 size-medium" srcset="https://cet.ecu.edu/csci/wp-content/pv-uploads/sites/264/2019/02/Wu_Rui-1410_200.jpg 214w, https://cet.ecu.edu/csci/wp-content/pv-uploads/sites/264/2019/02/Wu_Rui-1410_200.jpg 250w" sizes="(max-width: 214px) 100vw, 214px"></div>
-                        <div class="col-md-9"><br><br>
-                        <strong>Projects/Research Interests</strong><br>
-                        <ul>
-                            <li>
-                                Data Imputation of Time Series Data with Extreme Events
-                            </li>
-                            <li>
-                                Dynamic Time Warping
-                            </li>
-                            <li>
-                                Predictive and Preventative Maintenance
-                            </li>
-                            <li>
-                                Data Pre-Processing and Data Post-Processing
-                            <li>
-                                Virtual Reality and Augmented Reality
-                            </li>
-                            <li>
-                                Big Data Visualization and Interaction
-                            </li>
-                           
-                        </ul>
-                        <br>
-                        </div>
-                    </div>
-           
-        <br>
-
-         
-          
-          
-          
-          
+          <div class = "container">
+            <embed src="pdf/Flyer.pdf" type="application/pdf" width="80%" height="800" style="margin: auto; display: block;">
           </div>
-
         </main>
+
       </div>
     </div>
+
 </body>
+
 
 
 <footer aria-label="footer">
@@ -851,6 +716,7 @@
               <br />
               <div id="google_translate_element"></div>
             </div>
+            </div>
           </div>
         </div>
       </div>
@@ -861,4 +727,10 @@
 
 
 
+
+
+
+
+
 </html>
+
